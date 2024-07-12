@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tabela Frutas</title>
+	<style type="text/css">
+		/*text-align: center (para centralizar o texto)
+		*background-color: cor de fundo em qualquer tag*/ 
+
+		.titulo{
+
+			color: #062662;
+			font-size: 25px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 30px;
+			border: solid 42px #5F89B7;
+			/*NÃO FUNCIONA*/
+		}
+
+		.subtitulo td{
+			color: black;
+			text-align: center;
+			font-size: ;
+			font-family: arial;
+			background-color: #D3DFEF;
+			line-height: 40px;
+			width: 20px;
+			border: solid 2px #5F89B7;
+			
+		}
+
+		.frutas{
+			font-family: arial;
+			/*background-color: #D3DFEF;*/
+			font-size: 15px;
+			/*border-color: #5F89B7;*/
+			border: solid 2px #5F89B7; 
+
+			
+
+		}
+
+		.cifrao {
+			font-family: calibri;
+			text-align: right;
+			border: solid 2px #5F89B7;
+			
+		}
+
+
+		.info{
+			text-align: right;
+			font-size: 15px;
+			border: solid 2px #5F89B7;
+
+		}
+
+		.frutass{
+			font-family: arial;
+			background-color: #D3DFEF;
+			font-size: 15px;
+			border: solid 2px #5F89B7;
+
+
+			
+		}
+
+		.frutaas{
+			font-family: arial;
+			background-color: #D3DFEF;
+			font-size: 15px;
+			border: solid 2px #5F89B7;
+		}
+
+		.tabela{
+			width:700px;
+			margin: 30px auto;
+			border: solid 2px #5F89B7;
+		}
+
+		.tabela td{
+			border: solid 2px #5F89B7;
+			padding: 5px;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<table class="tabela">
+		<thead class="titulo">
+			 <tr>
+				<td colspan="4">Tabela de Frutas Compradas na quinzena</td>
+
+			</tr>
+		</thead>
+		<thead>
+			<tr class="subtitulo">
+			    <td>Produto</td>
+			    <td>Preço</td>
+			    <td>Quantidade</td>
+			    <td>Total</td>
+	        </tr>
+		</thead>
+		<tbody>
+
+		    <tr class="frutas">
+			    <td rowspan="2">Banana</td>
+			    <td class="cifrao" class="info">R$ 2,00</td>
+			    <td class="info" class="info">20</td>
+			    <td class="cifrao">R$ 40,00</td>
+				
+		    </tr>
+
+		    <tr class="frutaas">
+		       <!--td>Banana</td!-->
+		       <td class="cifrao" class="info">R$ 2,00</td>
+			   <td class="info">25</td>
+			   <td class="cifrao">R$ 50,00</td>
+				
+	        </tr>
+
+		    <tr class="frutas">
+			   <td rowspan="2">Jaca</td>
+			   <td class="cifrao" class="info">R$ 3,00</td>
+			   <td class="info">3</td>
+			   <td class="cifrao">R$ 9,00</td>
+			
+		    </tr>
+
+		    <tr class="frutaas">
+               <!--td>Jaca</td-->
+			   <td class="cifrao" class="info">R$ 2,50</td>
+			   <td class="info">2</td>
+			   <td class="cifrao">R$ 5,00</td>
+		    </tr>
+
+		    <tr class="frutas">
+			   <td>Maçã</td>
+			   <td class="cifrao" class="info">R$ 4,00</td>
+			   <td class="info">9</td>
+			   <td class="cifrao">R$ 36,00</td>
+		    </tr>
+
+		    <tr class="frutaas">
+			   <td>Morango</td>
+			   <td class="cifrao" class="info">R$ 4,00</td>
+			   <td class="info">15</td>
+			   <td class="cifrao">R$ 60,00</td>
+		    </tr>
+
+		    <tr class="frutas">
+			   <td>Laranja</td>
+			   <td class="cifrao" class="info">R$ 3,00</td>
+			   <td class="info">15</td>
+			   <td class="cifrao">R$ 45,00</td>
+		    </tr>
+
+		    <tr class="frutaas">
+			   <td>Melancia</td>
+			   <td class="cifrao" class="info">R$ 5,00</td>
+			   <td class="info">2</td>
+			   <td class="cifrao">R$ 10,00</td>
+		    </tr>
+
+		    <tr class="frutas">
+			   <td>Limão</td>
+			   <td class="cifrao" class="info">R$ 2,00</td>
+			   <td class="info">30</td>
+			   <td class="cifrao">R$ 60,00</td>
+		    </tr>
+
+		    <tr class="frutaas">
+			   <td>Bergamota</td>
+			   <td class="cifrao" class="info">R$ 1,50</td>
+			   <td class="info">20</td>
+			   <td class="cifrao">R$ 30,00</td>
+		    </tr>
+
+		    <tr class="frutas">
+			   <td>Lima</td>
+			   <td class="cifrao" class="info">R$ 5,00</td>
+			   <td class="info">25</td>
+			   <td class="cifrao">R$ 125,00</td>
+		    </tr>
+
+		    <tr class="frutaas">
+			   <td>Uva</td>
+			   <td class="cifrao" class="info">R$ 3,00</td>
+			   <td class="info">25</td>
+			   <td class="cifrao">R$ 75,00</td>
+		    </tr>
+
+		    <tr class="frutas">
+			   <td>Abacaxi</td>
+			   <td class="cifrao" class="info">R$ 6,00</td>
+			   <td class="info">24</td>
+			   <td class="cifrao">R$ 144,00</td>
+		    </tr>
+
+		    <tr class="frutaas">
+			   <td>Amora</td>
+			   <td class="cifrao" class="info">R$ 1,00</td>
+			   <td class="info">39</td>
+			   <td class="cifrao">R$ 39,00</td>
+		    </tr>
+
+		    <tr class="frutas">
+			   <td>Pera</td>
+			   <td class="cifrao" class="info">R$ 1,80</td>
+			   <td class="info">21</td>
+			   <td class="cifrao">R$ 37,80</td>
+
+		    </tr>
+	</tbody>
+
+	<tfoot>
+		    <tr class="frutass">
+			   <td colspan="2">
+				Tabela do Mês de Janeiro
+				<td colspan="2">
+				Venda Bruta: R$ 765,80
+			   </td>
+
+		    </tr>
+	</tfoot>
+    </table>
+	
+
+</body>
+</html>
