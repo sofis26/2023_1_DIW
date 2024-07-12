@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contato profissional</title>
+	<style type="text/css">
+
+		body{
+			background-image:url(paisagem.jpg);
+			/*background-position: 10000px 10000px;*/
+			background-attachment: stroll;
+			background-size: 1500px 2500px;
+			background-repeat: no-repeat ;
+
+
+		}
+		input{
+			display: block;
+			margin-top: 20px;
+
+		}
+
+		.radio{
+			display: inline-block;
+
+		}
+
+                .caixa{
+        	        display: block;
+        	        margin-top: 20px;
+        	        font-style: italic;
+
+
+                }
+
+                .destaque{
+                	color: #000;
+                	font-style: italic;
+                	text-decoration: underline;
+                	font-size: 20px;
+
+
+
+
+
+
+                }
+
+                h1{
+                	display: block;
+                	background-color: #9C6D8F;
+                	text-align: center;
+                	padding: 15px;
+                	width: 170px;
+                	margin: 10px auto;
+                	text-shadow: 2px 2px 6px #444;
+                	border: solid 2px #000;
+                	border-radius: 2px;
+                	font-weight: 250;
+                	font-size: 35px;
+
+                	/*#79536E,#9C6D8F*/
+
+
+                }
+
+                .fundo{
+                	background-color: #F9DEDC;
+                	width: 70%;
+                	margin: 0 auto;
+                	text-align: center;
+                	border: ridge 3px #382633;
+                	margin-top: 20px;
+
+
+                }
+
+                .sla{
+                	background-color: #F9DEDC;
+                }
+
+                .container{
+
+                	background-color: #F9DEDC;
+                }
+
+
+                .roberto{
+                	text-decoration: underline;
+                	font-style: italic;
+                	font-size: 20px;
+                }
+
+                .id{
+                	text-align: center;
+                }
+
+                .exceto{
+                	text-align: left;
+                	font-weight: bold;
+                	font-size: 20px;
+                	
+                }
+
+                .botao{
+                	width: 80px;
+                	height: 50px;
+                	margin: 0 auto;
+                	margin-top: 30px;
+                	background-color: #BFDBF7;
+                	text-transform: uppercase;
+                }
+
+                .botao:hover{
+                	color: #2011BC;
+                	background: #DFD3F2;
+
+                }
+
+
+
+
+
+
+             
+                
+
+                
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<h1>Formulário</h1>
+	<form enctype="multipart/form-data" action="" method="post">
+		<fieldset class="fundo">
+			<legend class="exceto">Dados Pessoais</legend>
+	        <h3 class="destaque" class="eunaosei">Nome completo:</h3>
+	        <label class="caixa">
+	          <input id="nome" type="text" name="nome" placeholder="Seu nome completo" max="50" min="0" required>
+	        </label>
+
+		<h3 class="destaque">Gênero:</h3>
+		<label class="caixa">
+		        <input class="radio" type="radio" name="genero" value="f"> Feminino
+                </label>
+
+                <label class="caixa">
+                        <input class="radio" type="radio" name="genero" value="m"> Masculino
+                </label>
+
+                <label class="caixa">
+                        <input class="radio" type="radio" name="genero" value="o"> Outro
+                </label>
+
+                <label class="caixa">
+                        <input class="radio" type="radio" name="genero" value="n"> Prefiro não responder
+                </label>
+
+                <h3 class="destaque">Data de nascimento:</h3>
+                <label class="caixa">
+	        	<input type="date" name="data">
+	        </label>
+
+	        <h3 class="destaque">E-mail:</h3>
+	        <label class="caixa">
+	        	<input type="email" name="email" placeholder="Seu e-mail" required>
+	        </label>
+
+	        <h3 class="destaque">Site pessoal:</h3>
+	        <label class="caixa">
+	        	<input type="url" name="site">
+	        </label>
+
+	        <h3 class="destaque">Endereço:</h3>
+	        <label class="caixa">
+	        	<input type="address" name="endereço" placeholder="Rua" required>
+	        	<input type="address" name="numero" placeholder="Número" required>
+	        	<input type="address" name="complemento" placeholder="Complemento" required>
+	        	
+	        </label>
+
+	        <h3 class="roberto">
+	        Selecione sua cidade:
+	        </h3>
+
+
+	        <select name="cidade">
+        	        <option value="">✩Selecione✩</option>
+        	
+        	        <option>Alvorada</option>
+        	        <option>Canoas</option>
+        	        <option>Esteio</option>
+        	        <option>Gravataí</option>
+        	        <option>Novo Hamburgo</option>
+        	        <option>Passo Fundo</option>
+        	        <option>Pelotas</option>
+        	        <option>Porto Alegre</option>
+        	        <option>São Leopoldo</option>
+        	</select>
+
+        	<h3 class="destaque">Telefone:</h3>
+        	<label class="caixa">
+        	 	<input type="tel" name="telefone" placeholder="Seu telefone">
+        	</label>
+
+        	</fieldset>
+
+        	<fieldset class="fundo">
+        		<legend class="exceto">Dados profissionais</legend>
+
+        	<h3 class="destaque">Áreas de atuação:</h3>
+        	<label class="caixa">
+        	        <input class="radio" type="checkbox" name="Negocios"> Análise de Negócios
+                </label>
+
+                <label class="caixa">
+        	        <input class="radio" type="checkbox" name="Teste"> Análise de Testes
+                </label>
+
+                <label class="caixa">
+        	        <input class="radio" type="checkbox" name="Dados"> Banco de Dados
+                </label>
+
+                <label class="caixa">
+        	        <input class="radio" type="checkbox" name="DB-e"> Desenvolvimento Back-end
+                </label>
+               
+                <label class="caixa">
+        	        <input class="radio" type="checkbox" name="DF-e"> Desenvolvimento Front-end
+                </label>
+
+                <label class="caixa">
+        	        <input class="radio" type="checkbox" name="Design"> Design
+                </label>
+
+                <label class="caixa">
+        	        <input class="radio" type="checkbox" name="Engenharia"> Engenharia de Software
+                </label>
+
+                <label class="caixa">
+        	        <input class="radio" type="checkbox" name="Manutencao"> Manutenção
+                </label>
+
+                <h3 class="destaque">Formação:</h3>
+
+                <input list="lista" name="lista">
+
+                <h3 class="roberto">Histórico Profissional:</h3>
+                
+                <textarea placeholder="resumo do seu histórico profissional" name="historico"></textarea>
+
+                <h3 class="destaque">Currículo Vitae:</h3>
+                <label class="caixa">
+                	<input type="file" name="anexo">
+                </label>
+
+                <h3 class="destaque">Disponibilidade de horas semanais:</h3>
+                <label class="caixa">
+                	<input type="number" name="horas" placeholder="Sua disponibilidade" step="10" max="40" min="10">
+                </label>
+
+                </fieldset>
+                <fieldset class="fundo">
+                	<legend class="exceto">Agendamento de entrevista</legend>
+
+                <h3 class="destaque">Data:</h3>
+                <label class="caixa">
+                	<input type="date" name="data" required>
+                </label>
+
+                <h3 class="destaque">Horário:</h3>
+                <label class="caixa">
+                	<input type="time" name="horario" required>
+                </label>
+                </fieldset>
+
+		<input class="botao" type="submit" name="enviar">
+		
+
+        </form>        
+
+                <datalist id="lista" >
+		<option>Ensino Fundamental</option>
+		<option>Ensino Médio</option>
+		<option>Ensino Superior</option>
+		<option>Especialização</option>
+		<option>Mestrado</option>
+		<option>Doutorado</option>
+	        </datalist>
+
+
+</body>
+</html>
+
+
+
+
